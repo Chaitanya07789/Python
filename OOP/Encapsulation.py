@@ -18,5 +18,5 @@ class BankAccount:
 acc = BankAccount(1000)
 acc.deposite(500)
 print(acc.get_balance()) # 1500
-acc.__balance = 0  # cannot modify directly encupsulation prevents this
+acc.__balance = 0  # cannot modify directly encapsulation prevents this
 print(acc.get_balance()) # 1500
